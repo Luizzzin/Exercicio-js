@@ -1,0 +1,42 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(33, 33, 33);
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 1px rgba(0.5, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+}
+.controle{
+    font: 400 30px 'esquadro';
+    color: white;
+}
+@font-face {
+    font-family: 'esquadro';
+    src: url(eEsquadro.ttf);
+}
+.start{
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
