@@ -4,9 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --white: #fff;
+    --green: #32fc5a;
+    --yellow: #ffff00;
+    --red: #ff0000;
+}
 .body{
-    background-color: yellow;
+    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +24,7 @@
     height: 500px;
     background-color: rgb(33, 33, 33);
     border-radius: 12px;
-    box-shadow: 5px 5px 5px 1px rgba(0.5, 0, 0, 0.5);
+    box-shadow: 7px 7px 7px 3px rgba(0.5, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -39,4 +44,8 @@
     height: 70px;
     border-radius: 5px;
     margin-top: 30px;
+    transition: 0.3s ease;
+}
+.start:hover{
+    background-color: gray;
 }
